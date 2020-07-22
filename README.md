@@ -35,9 +35,9 @@
 
 - 设备：
   - MacBook Pro (Retina, 15-inch, Mid 2015) 
-  <img src="images/mac15.png">  
+  <img src="images/mac15.PNG">  
   - MacBook Pro (16-inch, 2019)  
-  <img src="images/mac16.png">   
+  <img src="images/mac16.PNG">   
 
 - 结果
   
