@@ -1,1 +1,1 @@
-# Hackintosh
+# 硬件配置
