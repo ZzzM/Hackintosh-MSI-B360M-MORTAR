@@ -1,5 +1,20 @@
 # 系统
 
+| macOS 版本 | 升级建议 |
+| ---- | ---- |
+| 10.15.6 | 直接升级 |
+
+<img src="images/mac.png">
+
+
+# 功能
+
+- [x] 声卡
+- [x] 显卡 / 硬解 4K（HEVC + H.264）
+- [x] WiFi & 蓝牙
+- [x] 隔空投送 / 接力
+- [x] 睡眠 / 键盘、鼠标唤醒
+- [x] 原生电源管理
 
 # 配置
 
@@ -11,7 +26,7 @@
 | SSD  | 海康威视 C2000 PRO（512G） |
 | 内存  | 宇瞻 黑豹系列（8G DDR4 2666）x 2 |
 | 电源  | 振华 80PLUS金牌战斗版（550w） |
-| 无限网卡&蓝牙  | BCM94360CD |
+| WiFi & 蓝牙  | 奋威 BCM94360CD（双频 1750M + 蓝牙 4.0）PCI-E 无线网卡 |
 
 #  性能对比
 - 系统：macOS Catalina 10.15.6
@@ -19,16 +34,18 @@
 
 
 - 设备：
-  - MacBook Pro (Retina, 15-inch, Mid 2015)   
-  - MacBook Pro (16-inch, 2019)   
+  - MacBook Pro (Retina, 15-inch, Mid 2015) 
+  <img src="images/mac15.png">  
+  - MacBook Pro (16-inch, 2019)  
+  <img src="images/mac16.png">   
 
 - 结果
   
-| 设备型号 | 单核 | 多核 | 核显（Metal,OpenCL） | 独显（Metal,OpenCL） |
+| 设备型号 | 单核 | 多核 | 核显（ Metal, OpenCL ） | 独显（ Metal, OpenCL ） |
 | ---- | ---- | ---- | ---- | ---- |
-| 黑苹果 | --- | ---- | - | 多核分数 |
-| MacBook Pro (Retina, 15-inch, Mid 2015) | 821 | 3303 | 520,5152 | - |
-| MacBook Pro (16-inch, 2019) | ---- | ---- | 单核分数 | 多核分数 |
+| 黑苹果 | 1025 | 5118 | - | 39163, 38203 |
+| MacBook Pro (Retina, 15-inch, Mid 2015) | 821 | 3303 | 520, 5152 | - |
+| MacBook Pro (16-inch, 2019) | - | - | - | - |
 
 
 
