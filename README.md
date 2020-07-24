@@ -7,6 +7,7 @@
 | 1.0 | 2020.7.23 | 支持 macOS 10.15.6 |
 
 *[下载地址](https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/releases/download/1.0/EFI.zip)*
+
 *[历史记录](https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/releases)*
   
 **注意:**
@@ -45,6 +46,7 @@
 - 设备：
   - MacBook Pro (Retina, 15-inch, Mid 2015) 
   <img src="images/mac15.PNG">  
+  
   - MacBook Pro (16-inch, 2019)  
   <img src="images/mac16.PNG">   
 
