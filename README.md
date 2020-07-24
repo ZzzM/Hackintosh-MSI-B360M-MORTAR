@@ -1,11 +1,20 @@
-# 系统
-
-| macOS 版本 | 升级建议 |
-| ---- | ---- |
-| 10.15.6 | 直接升级 |
-
 <img src="images/mac.png">
 
+# OpenCore EFI
+
+| 版本 | 日期 | 说明 |
+| ---- | ---- | ---- |
+| 1.0 | 2020.7.23 | 支持 macOS 10.15.6 |
+
+*[下载地址](https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/releases/download/1.0/EFI.zip)*
+*[历史记录](https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/releases)*
+  
+**注意:**
+- 三码应重新设置
+- 机型应根据配置设置
+- BIOS 应根据使用情况设置
+  
+[*参考地址*](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI#%E4%BD%BF%E7%94%A8-efi)
 
 # 功能
 
@@ -41,12 +50,18 @@
 
 - 结果
   
-| 设备型号 | 单核 | 多核 | 核显（ Metal, OpenCL ） | 独显（ Metal, OpenCL ） |
-| ---- | ---- | ---- | ---- | ---- |
-| 黑苹果 | 1025 | 5118 | - | 39163, 38203 |
-| MacBook Pro (Retina, 15-inch, Mid 2015) | 821 | 3303 | 520, 5152 | - |
-| MacBook Pro (16-inch, 2019) | - | - | - | - |
+| 设备 | CPU | 单核 | 多核 |
+| ---- | ---- | ---- | ---- |
+| 黑苹果 | Intel Core i5-9400F |1025 | 5118 |
+| MacBook Pro (Retina, 15-inch, Mid 2015) |Intel Core i7-4770HQ | 821 | 3303 |
+| MacBook Pro (16-inch, 2019) | Intel Core i7-9750H | 1073 | 5425 |
 
+
+| 设备 | 显卡 | OpenCL | Metal |
+| ---- | ---- | ---- | ---- |
+| 黑苹果 | AMD Radeon RX 590 |38203 | 39163 |
+| MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Iris Pro | 5152 | 520 |
+| MacBook Pro (16-inch, 2019) | AMD Radeon Pro 5300M </br> Intel UHD Graphocs 630  | 25241 </br> 5186 | 23814 </br> 4718 |
 
 
 # 参考
