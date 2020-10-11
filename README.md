@@ -4,7 +4,7 @@
 
 | 版本 | 日期 | 说明 |
 | ---- | ---- | ---- |
-| 1.0 | 2020.7.23 | 支持 macOS 10.15.6 |
+| 1.0 | 2020.7.23 | 支持 macOS 10.15.7 |
 
 *[下载地址](https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/releases/download/1.0/EFI.zip)*
 
