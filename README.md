@@ -1,5 +1,3 @@
-<img src="images/mac.png">
-
 # OpenCore EFI
 
 **系统支持：macOS 10.15.7**
@@ -46,6 +44,9 @@
 
 
 - 设备：
+  - 黑苹果
+  <img src="images/mac.png">
+
   - MacBook Pro (Retina, 15-inch, Mid 2015) 
   <img src="images/mac15.PNG">  
   
