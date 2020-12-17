@@ -1,11 +1,12 @@
 # OpenCore EFI
 
-**系统支持：macOS Big Sur 11.0.1**
+**系统支持：macOS Big Sur 11.1**
 
 | 版本 | 日期 | 说明 |
 | ---- | ---- | ---- |
 | 1.0 | 2020.7.23 | OpenCore 6.0 |
 | 1.1 | 2020.11.6 | OpenCore 6.3 |
+| 1.2 | 2020.12.17 | OpenCore 6.4 |
 
 
 *[下载地址](https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/releases)*
