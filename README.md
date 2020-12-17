@@ -4,13 +4,10 @@
 
 | 版本 | 日期 | 说明 |
 | ---- | ---- | ---- |
-| 1.0 | 2020.7.23 | OpenCore 6.0 |
-| 1.1 | 2020.11.6 | OpenCore 6.3 |
-| 1.2 | 2020.12.17 | OpenCore 6.4 |
+| 1.0 | 2020.7.23 | OpenCore 0.6.0 |
+| 1.1 | 2020.11.6 | OpenCore 0.6.3 |
+| 1.2 | 2020.12.17 | OpenCore 0.6.4 |
 
-
-*[下载地址](https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/releases)*
-  
 **注意:**
 - 三码应重新设置
 - 机型应根据配置设置
