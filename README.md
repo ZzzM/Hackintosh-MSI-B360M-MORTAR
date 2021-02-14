@@ -1,6 +1,6 @@
 # OpenCore EFI
 
-**系统支持：macOS Big Sur 11.2**
+**系统支持：macOS Big Sur 11.2.1**
 
 | 版本 | 日期 | 说明 |
 | ---- | ---- | ---- |
