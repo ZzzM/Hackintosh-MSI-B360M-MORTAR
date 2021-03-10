@@ -16,14 +16,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Memory controller</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Load original power management</string>
 				<key>Enabled</key>
 				<true/>
@@ -669,9 +661,7 @@
 			<key>MLB</key>
 			<string>C02917102J9JG361M</string>
 			<key>ROM</key>
-			<data>
-			xecDxy24
-			</data>
+			<data>xecDxy24</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
