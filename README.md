@@ -1,18 +1,38 @@
 # OpenCore EFI
 
-**系统已支持：macOS Big Sur 11.2.3**
+- 系统支持
+*macOS Big Sur 11.3*
+<br>
 
-| 版本 | 日期 | 说明 |
-| ---- | ---- | ---- |
-| 1.4 | 2020.3.10 | OpenCore 0.6.7 |
-| 1.3 | 2020.2.10 | OpenCore 0.6.6 |
-| 1.2 | 2020.12.17 | OpenCore 0.6.4 |
-| 1.1 | 2020.11.6 | OpenCore 0.6.3 |
-| 1.0 | 2020.7.23 | OpenCore 0.6.0 |
+- OpenCore
+*0.6.8*
+<br>
 
+- 内核扩展
 
+| 名称 | 版本 |
+| :-: | :-: |
+| AppleALC | 1.5.9 |
+| IntelMausi | 1.0.5 |
+| Lilu | 1.5.2 |
+| NVMeFix | 1.0.6 |
+| VirtualSMC | 1.2.2 |
+| WhateverGreen | 1.4.9 |
+<br>
 
-**注意:**
+- 更新记录
+
+| 版本 | 日期 |
+| :-: | :-: |
+| 1.5 | 2021.5.1 |
+| 1.4 | 2021.3.10 |
+| 1.3 | 2021.2.10 |
+| 1.2 | 2020.12.17 |
+| 1.1 | 2020.11.6 |
+| 1.0 | 2020.7.23 |
+<br>
+
+**注意**
 - 三码应重新设置
 - 机型应根据配置设置
 - BIOS 应根据使用情况设置
@@ -58,17 +78,17 @@
 - 结果
   
 | 设备 | CPU | 单核 | 多核 |
-| ---- | ---- | ---- | ---- |
+| - | -| - | - |
 | 黑苹果 | Intel Core i5-9400F |1025 | 5118 |
 | MacBook Pro (Retina, 15-inch, Mid 2015) |Intel Core i7-4770HQ | 821 | 3303 |
 | MacBook Pro (16-inch, 2019) | Intel Core i7-9750H | 1073 | 5425 |
 
 
 | 设备 | 显卡 | OpenCL | Metal |
-| ---- | ---- | ---- | ---- |
+| - | - | - | - |
 | 黑苹果 | AMD Radeon RX 590 |38203 | 39163 |
 | MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Iris Pro | 5152 | 520 |
-| MacBook Pro (16-inch, 2019) | AMD Radeon Pro 5300M </br> Intel UHD Graphocs 630  | 25241 </br> 5186 | 23814 </br> 4718 |
+| MacBook Pro (16-inch, 2019) | AMD Radeon Pro 5300M </> Intel UHD Graphocs 630  | 25241 </br> 5186 | 23814 </br> 4718 |
 
 
 # 参考
