@@ -2,27 +2,28 @@
 
 - 系统支持
   
-  *macOS Big Sur 11.3.1*
+  *macOS Big Sur 11.4*
   
 - OpenCore
   
-  *0.6.8*
+  *0.6.9*
   
 - 内核扩展
 
   | 名称 | 版本 |
   | :-: | :-: |
-  | AppleALC | 1.5.9 |
-  | IntelMausi | 1.0.5 |
-  | Lilu | 1.5.2 |
-  | NVMeFix | 1.0.6 |
-  | VirtualSMC | 1.2.2 |
+  | AppleALC | 1.6.0 |
+  | IntelMausi | 1.0.6 |
+  | Lilu | 1.5.3 |
+  | NVMeFix | 1.0.7 |
+  | VirtualSMC | 1.2.3 |
   | WhateverGreen | 1.4.9 |
 
 - 更新记录
 
   | 版本 | 日期 |
   | :-: | :-: |
+  | 1.6 | 2021.5.25 |
   | 1.5 | 2021.5.1 |
   | 1.4 | 2021.3.10 |
   | 1.3 | 2021.2.10 |
@@ -86,7 +87,7 @@
   | - | - | - | - |
   | 黑苹果 | AMD Radeon RX 590 |38203 | 39163 |
   | MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Iris Pro | 5152 | 520 |
-  | MacBook Pro (16-inch, 2019) | AMD Radeon Pro 5300M </> Intel UHD Graphocs 630  | 25241 </br> 5186 | 23814 </br> 4718 |
+  | MacBook Pro (16-inch, 2019) | AMD Radeon Pro 5300M <br> Intel UHD Graphocs 630  | 25241 <br> 5186 | 23814 <br> 4718 |
 
 
 # 参考
