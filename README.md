@@ -2,7 +2,7 @@
 
 - 系统支持
   
-  *macOS Big Sur 11.5*
+  *macOS Big Sur 11.5.1*
   
 - OpenCore
   
