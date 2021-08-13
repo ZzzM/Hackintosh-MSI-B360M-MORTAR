@@ -1,12 +1,18 @@
 # OpenCore EFI
+<img src="images/system.png">  
 
-- 系统支持
+- 系统信息
   
-  *macOS Big Sur 11.5.2*
-  
-- OpenCore
-  
-  *0.7.2*
+  <table>
+    <tr>
+      <td>macOS</td>
+      <td>11.5.2</td>
+    </tr>
+    <tr>
+      <td>OpenCore</td>
+      <td>0.7.2</td>
+    </tr>
+  </table>
   
 - 内核扩展
 
