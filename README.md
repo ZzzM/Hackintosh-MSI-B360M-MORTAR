@@ -2,27 +2,28 @@
 
 - 系统支持
   
-  *macOS Big Sur 11.5.1*
+  *macOS Big Sur 11.5.2*
   
 - OpenCore
   
-  *0.7.1*
+  *0.7.2*
   
 - 内核扩展
 
   | 名称 | 版本 |
   | :-: | :-: |
-  | AppleALC | 1.6.2 |
+  | AppleALC | 1.6.3 |
   | IntelMausi | 1.0.7 |
-  | Lilu | 1.5.4 |
+  | Lilu | 1.5.5 |
   | NVMeFix | 1.0.9 |
-  | VirtualSMC | 1.2.5 |
-  | WhateverGreen | 1.5.1 |
+  | VirtualSMC | 1.2.6 |
+  | WhateverGreen | 1.5.2 |
 
 - 更新记录
 
   | 版本 | 日期 |
   | :-: | :-: |
+  | 1.8 | 2021.08.14 |
   | 1.7 | 2021.07.22 |
   | 1.6 | 2021.05.25 |
   | 1.5 | 2021.05.01 |
