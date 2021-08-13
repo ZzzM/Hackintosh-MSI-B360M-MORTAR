@@ -5,12 +5,12 @@
   
   <table>
     <tr>
-      <td>macOS</td>
-      <td>11.5.2</td>
+      <th align="center">macOS</th>
+      <td align="center">11.5.2</td>
     </tr>
     <tr>
-      <td>OpenCore</td>
-      <td>0.7.2</td>
+      <th align="center">OpenCore</th>
+      <td align="center">0.7.2</td>
     </tr>
   </table>
   
