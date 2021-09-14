@@ -6,29 +6,31 @@
   <table>
     <tr>
       <th align="center">macOS</th>
-      <td align="center">11.5.2</td>
+      <td align="center">11.6</td>
     </tr>
     <tr>
       <th align="center">OpenCore</th>
-      <td align="center">0.7.2</td>
+      <td align="center">0.7.3</td>
     </tr>
   </table>
   
+
 - 内核扩展
 
   | 名称 | 版本 |
   | :-: | :-: |
-  | AppleALC | 1.6.3 |
+  | AppleALC | 1.6.4 |
   | IntelMausi | 1.0.7 |
-  | Lilu | 1.5.5 |
+  | Lilu | 1.5.6 |
   | NVMeFix | 1.0.9 |
-  | VirtualSMC | 1.2.6 |
-  | WhateverGreen | 1.5.2 |
+  | VirtualSMC | 1.2.7 |
+  | WhateverGreen | 1.5.3 |
 
 - 更新记录
 
-  | 版本 | 日期 |
+  | 版本 | 日期 | 
   | :-: | :-: |
+  | 1.9 | 2021.09.15 |
   | 1.8 | 2021.08.14 |
   | 1.7 | 2021.07.22 |
   | 1.6 | 2021.05.25 |
@@ -39,12 +41,11 @@
   | 1.1 | 2020.11.06 |
   | 1.0 | 2020.07.23 |
 
-**注意**
-- 三码应重新设置
-- 机型应根据配置设置
-- BIOS 应根据使用情况设置
-  
-[*参考地址*](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI#%E4%BD%BF%E7%94%A8-efi)
+# 注意
+- 如果是升级至 1.9，需适配 config.plist（可使用 [**OCAuxiliaryTools**](https://github.com/ic005k/QtOpenCoreConfig/releases) ）
+
+- 三码、机型、BIOS 设置根据实际情况修改（[**参考地址**](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI#%E4%BD%BF%E7%94%A8-efi)）
+
 
 # 功能
 
