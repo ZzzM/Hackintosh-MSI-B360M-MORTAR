@@ -6,11 +6,11 @@
   <table>
     <tr>
       <th align="center">macOS</th>
-      <td align="center">11.6</td>
+      <td align="center">11.6.1</td>
     </tr>
     <tr>
       <th align="center">OpenCore</th>
-      <td align="center">0.7.3</td>
+      <td align="center">0.7.4</td>
     </tr>
   </table>
   
@@ -19,17 +19,18 @@
 
   | 名称 | 版本 |
   | :-: | :-: |
-  | AppleALC | 1.6.4 |
+  | AppleALC | 1.6.5 |
   | IntelMausi | 1.0.7 |
   | Lilu | 1.5.6 |
   | NVMeFix | 1.0.9 |
   | VirtualSMC | 1.2.7 |
-  | WhateverGreen | 1.5.3 |
+  | WhateverGreen | 1.5.4 |
 
 - 更新记录
 
   | 版本 | 日期 | 
-  | :-: | :-: |
+  | - | :-: |
+  | 1.9.1 | 2021.10.27 |
   | 1.9 | 2021.09.15 |
   | 1.8 | 2021.08.14 |
   | 1.7 | 2021.07.22 |
