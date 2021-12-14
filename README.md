@@ -58,7 +58,7 @@
 - [x] 隔空投送 / 接力
 - [x] 睡眠 / 键盘、鼠标唤醒
 - [x] 原生电源管理
-- [x] FaceTime / iMessage 
+- [x] FaceTime / iMessage / SharePlay
 
 # 配置
 
