@@ -1,5 +1,5 @@
 # Hackintosh OpenCore EFI
-<img src="images/000.png" width="60%">  
+<img src="assets/000.png" width="60%">  
 
 ### 内核扩展
 
@@ -8,7 +8,7 @@
   | 1.6.6    | 1.0.7      | 1.5.7 | 1.0.9   | 1.2.7      | 1.5.5         |
 
 
-### 更新记录
+### 版本记录
 🌟 *Monterey*
 
 | EFI   | macOS   | OpenCore |    -       | 
@@ -82,9 +82,9 @@
 
   |                                                                                       | CPU                  | 显卡 |
   | :-----------------------------------------------------------------------------------: | :------------------: | :--------------------------------------------------: |
-  | <img src="images/001.png" width="280px"><br>Hackintosh                                | Intel Core i5-9400F  | AMD Radeon RX 590 |
-  | <img src="images/002.png" width="280px"><br>MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Core i7-4770HQ | Intel Iris Pro    |
-  | <img src="images/003.png" width="280px"><br>MacBook Pro (16-inch, 2019)             | Intel Core i7-9750H  | ① AMD Radeon Pro 5300M <br> ② Intel UHD Graphocs 630 |
+  | <img src="assets/001.png" width="280px"><br>Hackintosh                                | Intel Core i5-9400F  | AMD Radeon RX 590 |
+  | <img src="assets/002.png" width="280px"><br>MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Core i7-4770HQ | Intel Iris Pro    |
+  | <img src="assets/003.png" width="280px"><br>MacBook Pro (16-inch, 2019)             | Intel Core i7-9750H  | ① AMD Radeon Pro 5300M <br> ② Intel UHD Graphocs 630 |
 
 #### 结果
   
