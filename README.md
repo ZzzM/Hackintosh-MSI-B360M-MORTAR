@@ -1,14 +1,14 @@
 # Hackintosh OpenCore EFI
 <img src="assets/000.png" width="60%">  
 
-### 内核扩展
+### Kexts
 
   | AppleALC | IntelMausi | Lilu  | NVMeFix | VirtualSMC | WhateverGreen |
   | :------: | :--------: | :---: | :-----: | :--------: | :-----------: |
   | 1.6.7    | 1.0.7      | 1.5.8 | 1.0.9   | 1.2.8      | 1.5.5         |
 
 
-### 版本记录
+### Version History
 🌟 *Monterey*
 
 | EFI   | macOS   | OpenCore |    -       | 
@@ -46,57 +46,59 @@
 </p>
 </details>
 
-### 注意
-- EFI 中 config.plist 可通过 [**OCAuxiliaryTools**](https://github.com/ic005k/QtOpenCoreConfig) 打开、保存实现更新适配
-- 三码、机型、BIOS 设置根据实际情况修改（[**参考地址**](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI#%E4%BD%BF%E7%94%A8-efi)）
 
-# 功能
+# Working
 
-- [x] 声卡
-- [x] 显卡 / 硬解 4K（HEVC + H.264）
-- [x] WiFi & 蓝牙
-- [x] 隔空投送 / 接力
-- [x] 睡眠 / 键盘、鼠标唤醒
-- [x] 原生电源管理
-- [x] FaceTime / iMessage / SharePlay
+- [x] Audio
+- [x] Graphics / Hardware Acceleration ( H.264 & HEVC )
+- [x] WiFi & Bluetooth, USB
+- [x] Shutdown & Restart, Sleep & Wake
+- [x] Sleep & Wake
+- [x] AirDrop, SharePlay, Handoff
+- [x] App Store, FaceTime, iMessage 
 
-# 配置
+# Hardware & Peripherals
 
-|             |                                                       |
-| :---------: | :---------------------------------------------------: |
-| 主板         | 微星 B360M 迫击炮                                      |
-| CPU         | Intel Core i5-9400F                                   |
-| 显卡         | 蓝宝石 RX590（8G D5 超白金 极光特别版）                   |
-| SSD         | 海康威视 C2000 PRO（512G）                              |
-| 内存         | 宇瞻 黑豹系列（8G DDR4 2666）x 2                        | 
-| 电源         | 振华 80PLUS金牌战斗版（550w）                            |
-| WiFi & 蓝牙  | 奋威 BCM94360CD（双频1750M 蓝牙4.0）PCI-E 无线网卡        |
-| 显示器        | AOC U2790PQU（27英寸 4K高清）                          |
-| 摄像头 & 麦克风| 罗技 C920 PRO                                         |
-| 鼠标         | 罗技 GPW 一代                                          |
-| 键盘         | Magic Keyboard                                        |
+|                     |                                                       |
+|  :--------------    | :---------------------------------------------------- |
+| Motherboard         | MSI B360M MORTAR                                      |
+| CPU                 | Intel Core i5-9400F                                   |
+| Graphics            | Sapphire Radeon RX 590 NITRO+ SE                      |
+| SSD                 | HIKVISION C2000 PRO 512GB                             |
+| RAM                 | Apacer PANTHER 16GB(2x8GB) DDR4 2666Mhz C16           | 
+| Power               | Super Flower HX550W 80 Plus Gold                      |
+| WiFi & Bluetooth    | Fenvi FV-T919 BCM94360CD                              |
+| Display             | AOC U2790PQU                                          |
+| Webcam & Microphone | Logitech C920 PRO                                     |
+| Mouse               | Logitech G PRO WIRELESS                               |
+| Keyboard            | Magic Keyboard                                        |
 
-#  性能对比
+# Benchmark
 
-#### 设备
+- Devices
 
-  | macOS 10.15.6                                                                         | CPU                  | 显卡 |
-  | :-----------------------------------------------------------------------------------: | :------------------: | :--------------------------------------------------: |
-  | <img src="assets/001.png" width="280px"><br>Hackintosh                                | Intel Core i5-9400F  | AMD Radeon RX 590 |
-  | <img src="assets/002.png" width="280px"><br>MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Core i7-4770HQ | Intel Iris Pro    |
-  | <img src="assets/003.png" width="280px"><br>MacBook Pro (16-inch, 2019)             | Intel Core i7-9750H  | ① AMD Radeon Pro 5300M <br> ② Intel UHD Graphocs 630 |
+| macOS 10.15.6                                                                         | CPU                  | Graphics |
+| :-----------------------------------------------------------------------------------: | :------------------: | :--------------------------------------------------: |
+| <img src="assets/001.png" width="280px"><br>Hackintosh                                | Intel Core i5-9400F  | AMD Radeon RX 590 |
+| <img src="assets/002.png" width="280px"><br>MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Core i7-4770HQ | Intel Iris Pro    |
+| <img src="assets/003.png" width="280px"><br>MacBook Pro (16-inch, 2019)             | Intel Core i7-9750H  | ① AMD Radeon Pro 5300M <br> ② Intel UHD Graphocs 630 |
 
-#### 结果
-  
+- Results
 
-  | Geekbench 5.2.0                         | CPU - 单核 | CPU - 多核 | 显卡 - OpenCL         | 显卡 - Metal        | 
-  | :-------------------------------------: | --------: | ---------: | -------------------: | -----------------: |
-  | Hackintosh                              | 1025      | 5118       | 38203                | 39163              |
-  | MacBook Pro (Retina, 15-inch, Mid 2015) | 821       | 3303       | 5152                 | 520                |
-  | MacBook Pro (16-inch, 2019)             | 1073      | 5425       | ① 25241 <br> ② 5186 | ① 23814 <br> ② 4718 |
+| Geekbench 5.2.0                         | Single-Core | Multi-Core | OpenCL         | Metal        | 
+| :-------------------------------------: | --------: | ---------: | -------------------: | -----------------: |
+| Hackintosh                              | 1025      | 5118       | 38203                | 39163              |
+| MacBook Pro (Retina, 15-inch, Mid 2015) | 821       | 3303       | 5152                 | 520                |
+| MacBook Pro (16-inch, 2019)             | 1073      | 5425       | ① 25241 <br> ② 5186 | ① 23814 <br> ② 4718 |
 
 
-# 参考
-[*MSI-B360M-MORTAR-IMACPRO-EFI*](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI)
+# Note
 
-[*MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI*](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI)
+- [**OC Auxiliary Tools**](https://github.com/ic005k/QtOpenCoreConfig) can help you update **config.plist** 
+
+- Refer [**here**](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI#%E4%BD%BF%E7%94%A8-efi) to help you adjust **BIOS Settings**
+
+
+# References
+- [*MSI-B360M-MORTAR-IMACPRO-EFI*](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI)
+- [*MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI*](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI)
