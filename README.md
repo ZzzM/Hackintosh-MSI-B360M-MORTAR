@@ -1,14 +1,14 @@
 # Hackintosh OpenCore EFI
 <img src="assets/000.png" width="60%">  
 
-### Kexts
+## Kexts
 
   | AppleALC | IntelMausi | Lilu  | NVMeFix | VirtualSMC | WhateverGreen |
   | :------: | :--------: | :---: | :-----: | :--------: | :-----------: |
   | 1.6.7    | 1.0.7      | 1.5.8 | 1.0.9   | 1.2.8      | 1.5.5         |
 
 
-### Version History
+## Version History
 🌟 *Monterey*
 
 | EFI   | macOS   | OpenCore |    -       | 
@@ -47,7 +47,7 @@
 </details>
 
 
-# Working
+## Working
 
 - [x] Audio
 - [x] Graphics / Hardware Acceleration ( H.264 & HEVC )
@@ -57,7 +57,7 @@
 - [x] AirDrop, SharePlay, Handoff
 - [x] App Store, FaceTime, iMessage 
 
-# Hardware & Peripherals
+## Hardware & Peripherals
 
 |                     |                                                       |
 |  :--------------    | :---------------------------------------------------- |
@@ -73,7 +73,7 @@
 | Mouse               | Logitech G PRO WIRELESS                               |
 | Keyboard            | Magic Keyboard                                        |
 
-# Benchmark
+## Benchmark
 
 - Devices
 
@@ -92,13 +92,13 @@
 | MacBook Pro (16-inch, 2019)             | 1073      | 5425       | ① 25241 <br> ② 5186 | ① 23814 <br> ② 4718 |
 
 
-# Note
+## Note
 
 - [**OC Auxiliary Tools**](https://github.com/ic005k/QtOpenCoreConfig) can help you update **config.plist** 
 
 - Refer [**here**](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI#%E4%BD%BF%E7%94%A8-efi) to help you adjust **BIOS Settings**
 
 
-# References
+## References
 - [*MSI-B360M-MORTAR-IMACPRO-EFI*](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI)
 - [*MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI*](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI)
