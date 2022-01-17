@@ -1,6 +1,6 @@
 
 <h1>
-# Hackintosh OpenCore EFI</br>
+Hackintosh OpenCore EFI</br>
 <a href="https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/tags">
   <img src="https://img.shields.io/github/v/tag/ZzzM/Hackintosh-MSI-B360M-MORTAR">
 </a>
