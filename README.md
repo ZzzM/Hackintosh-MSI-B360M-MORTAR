@@ -1,4 +1,17 @@
-# Hackintosh OpenCore EFI
+
+<h1>
+# Hackintosh OpenCore EFI</br>
+<a href="https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/tags">
+  <img src="https://img.shields.io/github/v/tag/ZzzM/Hackintosh-MSI-B360M-MORTAR">
+</a>
+<a href="https://raw.githubusercontent.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/master/LICENSE">
+  <img src="https://img.shields.io/github/license/ZzzM/Hackintosh-MSI-B360M-MORTAR">
+</a>
+<a href="https://zzzm.github.io/2020/07/24/hackintosh/">
+  <img src="https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-red">
+</a>
+</h1>
+
 <img src="assets/000.png" width="60%">  
 
 ## Kexts
