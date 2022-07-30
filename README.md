@@ -76,19 +76,56 @@ Hackintosh OpenCore EFI</br>
 
 ## Hardware & Peripherals
 
-|                     |                                                       |
-|  :--------------    | :---------------------------------------------------- |
-| Motherboard         | MSI B360M MORTAR                                      |
-| CPU                 | Intel Core i5-9400F                                   |
-| Graphics            | Sapphire Radeon RX 590 NITRO+ SE                      |
-| SSD                 | HIKVISION C2000 PRO 512GB                             |
-| RAM                 | Apacer PANTHER 16GB(2x8GB) DDR4 2666Mhz C16           | 
-| Power               | Super Flower HX550W 80 Plus Gold                      |
-| WiFi & Bluetooth    | Fenvi FV-T919 BCM94360CD                              |
-| Display             | AOC U2790PQU                                          |
-| Webcam & Microphone | Logitech C920 PRO                                     |
-| Mouse               | Logitech G PRO WIRELESS                               |
-| Keyboard            | Magic Keyboard                                        |
+<table>
+    <tr>
+      <td>Motherboard</td>
+      <td>MSI B360M MORTAR</td>
+    </tr>
+    <tr>
+      <td>CPU</td>
+      <td>Intel Core i5-9400F</td>
+    </tr>
+    <tr>
+      <td>Graphics</td>
+      <td>Sapphire Radeon RX 590 NITRO+ SE</td>
+    </tr>
+     <tr>
+      <td>SSD</td>
+      <td>HIKVISION C2000 PRO 512GB</td>
+    </tr>
+    <tr>
+      <td>RAM</td>
+      <td>Apacer PANTHER 16GB(2x8GB) DDR4 2666Mhz C16</td>
+    </tr>
+     <tr>
+      <td>Power</td>
+      <td>Super Flower HX550W 80 Plus Gold</td>
+    </tr>
+     <tr>
+      <td>WiFi & Bluetooth	</td>
+      <td>Fenvi FV-T919 BCM94360CD</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>AOC U2790PQU</td>
+    </tr>
+    <tr>
+      <td>Webcam & Microphone</td>
+      <td>Logitech C920 PRO</td>
+    </tr>
+    <tr>
+      <td>Mouse</td>
+      <td>Logitech G PRO WIRELESS</td>
+    </tr>
+    <tr>
+      <td>Trackpad</td>
+      <td>Apple Magic Trackpad</td>
+    </tr>
+    <tr>
+      <td>Keyboard</td>
+      <td>Apple Magic Keyboard </td>
+    </tr>
+</table>
 
 ## Benchmark
 
