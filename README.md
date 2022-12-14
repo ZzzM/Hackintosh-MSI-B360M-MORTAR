@@ -11,14 +11,13 @@ Hackintosh OpenCore EFI</br>
   <img src="https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-red">
 </a>
 </h1>
-
 <img src="assets/000.png" width="60%">  
 
 ## Kexts
 
 | AppleALC | IntelMausi | Lilu  | NVMeFix | VirtualSMC | WhateverGreen |
 | :------: | :--------: | :---: | :-----: | :--------: | :-----------: |
-|  1.7.6   |   1.0.7    | 1.6.2 |  1.1.0  |   1.3.0    |     1.6.1     |
+|  1.7.7   |   1.0.7    | 1.6.2 |  1.1.0  |   1.3.0    |     1.6.2     |
 
 
 ## Version History
@@ -26,7 +25,8 @@ Hackintosh OpenCore EFI</br>
 **⚡ Ventura**
 
 | EFI   | macOS  | OpenCore |     -      |
-| ----- | ------ | :------: | :--------: |
+| :---- | ------ | :------: | :--------: |
+| 3.1   | 13.1   |  0.8.7   | 2022.12.14 |
 | 3.0.1 | 13.0.1 |  0.8.6   | 2022.11.10 |
 | 3.0   | 13.0   |  0.8.5   | 2022.10.28 |
 
@@ -47,7 +47,7 @@ Hackintosh OpenCore EFI</br>
 
 </details>
 
-  
+
 <details>
 <summary><b> Big Sur </b></summary>
 
