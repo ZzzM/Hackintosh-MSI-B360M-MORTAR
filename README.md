@@ -17,7 +17,7 @@ Hackintosh OpenCore EFI</br>
 
 | AppleALC | IntelMausi | Lilu  | NVMeFix | VirtualSMC | WhateverGreen |
 | :------: | :--------: | :---: | :-----: | :--------: | :-----------: |
-|  1.7.7   |   1.0.7    | 1.6.2 |  1.1.0  |   1.3.0    |     1.6.2     |
+|  1.7.8   |   1.0.7    | 1.6.3 |  1.1.0  |   1.3.0    |     1.6.3     |
 
 
 ## Version History
@@ -26,6 +26,7 @@ Hackintosh OpenCore EFI</br>
 
 | EFI   | macOS  | OpenCore |     -      |
 | :---- | ------ | :------: | :--------: |
+| 3.2   | 13.2   |  0.8.8   | 2023.01.26 |
 | 3.1   | 13.1   |  0.8.7   | 2022.12.14 |
 | 3.0.1 | 13.0.1 |  0.8.6   | 2022.11.10 |
 | 3.0   | 13.0   |  0.8.5   | 2022.10.28 |
@@ -119,7 +120,7 @@ Hackintosh OpenCore EFI</br>
     </tr>
     <tr>
       <td>Monitor</td>
-      <td>AOC U2790PQU</td>
+      <td>LG 27UP850-W</td>
     </tr>
     <tr>
       <td>Webcam & Microphone</td>
