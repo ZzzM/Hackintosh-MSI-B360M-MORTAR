@@ -868,28 +868,18 @@
                 <integer>0</integer>
             </dict>
             <key>ConnectDrivers</key>
-            <false/>
+            <true/>
             <key>Drivers</key>
             <array>
                 <dict>
                     <key>Arguments</key>
                     <string></string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>HFS+ Driver</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>HfsPlus.efi</string>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>ExFatDxe.efi</string>
+                    <string>OpenHfsPlus.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -910,6 +900,26 @@
                     <true/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>ResetNvramEntry.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>ToggleSipEntry.efi</string>
                 </dict>
             </array>
             <key>Input</key>
@@ -956,7 +966,7 @@
                 <key>Resolution</key>
                 <string>Max</string>
                 <key>SanitiseClearScreen</key>
-                <true/>
+                <false/>
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
