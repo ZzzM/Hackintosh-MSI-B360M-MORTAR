@@ -11,7 +11,7 @@ Hackintosh OpenCore EFI</br>
   <img src="https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-red">
 </a>
 </h1>
-<img src="assets/000.png" width="25%">
+<img src="assets/000.png" width="30%">
 
 ## Kexts
 
