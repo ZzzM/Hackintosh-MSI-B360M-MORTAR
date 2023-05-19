@@ -163,7 +163,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.4 | Patch engine</string>
+                    <string>V1.6.5 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -253,7 +253,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.0 | Audio patches</string>
+                    <string>V1.8.2 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -493,6 +493,8 @@
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
+                <false/>
+                <key>DisableIoMapperMapping</key>
                 <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
@@ -1005,10 +1007,14 @@
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
+                <key>GopBurstMode</key>
+                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
+                <key>InitialMode</key>
+                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>

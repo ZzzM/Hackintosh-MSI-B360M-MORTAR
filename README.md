@@ -1,6 +1,9 @@
 
 <h1>
 Hackintosh OpenCore EFI</br>
+<a href="https://www.msi.com/Motherboard/B360M-MORTAR/support">
+  <img src="https://img.shields.io/badge/BIOS-7B23v1A-yellow">
+</a>
 <a href="https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/tags">
   <img src="https://img.shields.io/github/v/tag/ZzzM/Hackintosh-MSI-B360M-MORTAR">
 </a>
@@ -17,7 +20,7 @@ Hackintosh OpenCore EFI</br>
 
 | AppleALC | IntelMausi | Lilu  | NVMeFix | VirtualSMC | WhateverGreen |
 | :------: | :--------: | :---: | :-----: | :--------: | :-----------: |
-|  1.8.0   |   1.0.7    | 1.6.4 |  1.1.0  |   1.3.1    |     1.6.4     |
+|  1.8.2   |   1.0.7    | 1.6.5 |  1.1.0  |   1.3.1    |     1.6.4     |
 
 
 ## Version History
@@ -26,6 +29,7 @@ Hackintosh OpenCore EFI</br>
 
 | EFI   | macOS             | OpenCore |     -      |
 | ----- | ----------------- | :------: | :--------: |
+| 3.4   | 13.4              |  0.9.2   | 2023.05.19 |
 | 3.3   | 13.3 ~ 13.3.1 (a) |  0.9.0   | 2023.03.28 |
 | 3.2   | 13.2 ~ 13.2.1     |  0.8.8   | 2023.01.26 |
 | 3.1   | 13.1              |  0.8.7   | 2022.12.14 |
