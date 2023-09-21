@@ -1,20 +1,32 @@
+<!---  Update it   -->
+[op_img]: https://img.shields.io/badge/OpenCore-0.9.4-519872
+[op_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.4
 
-<h1>
-Hackintosh OpenCore EFI</br>
-<a href="https://www.msi.com/Motherboard/B360M-MORTAR/support">
-  <img src="https://img.shields.io/badge/BIOS-7B23v1A-yellow">
-</a>
-<a href="https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/tags">
-  <img src="https://img.shields.io/github/v/tag/ZzzM/Hackintosh-MSI-B360M-MORTAR">
-</a>
-<a href="https://raw.githubusercontent.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/master/LICENSE">
-  <img src="https://img.shields.io/github/license/ZzzM/Hackintosh-MSI-B360M-MORTAR">
-</a>
-<a href="https://zzzm.github.io/2020/07/24/hackintosh/">
-  <img src="https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-red">
-</a>
-</h1>
-<img src="assets/000.png" width="30%">
+[os_img]: https://img.shields.io/badge/macOS-13.6-6D67E4
+[os_link]: https://support.apple.com/en-us/HT213931
+<!---              -->
+
+[bs_img]: https://img.shields.io/badge/BIOS-7B23v1A-yellow
+[bs_link]: https://www.msi.com/Motherboard/B360M-MORTAR/support
+
+[tag_img]: https://img.shields.io/github/v/tag/ZzzM/Hackintosh-MSI-B360M-MORTAR
+[tag_link]: https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/tags
+
+[doc_img]: https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-red
+[doc_link]: https://zzzm.github.io/2020/07/24/hackintosh/
+
+[lic_img]: https://img.shields.io/github/license/ZzzM/Hackintosh-MSI-B360M-MORTAR
+[lic_link]: https://raw.githubusercontent.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/master/LICENSE
+
+# Hackintosh OpenCore EFI
+[![op_img]][op_link]
+[![os_img]][os_link]
+[![bs_img]][bs_link]
+[![tag_img]][tag_link]
+[![doc_img]][doc_link]
+[![lic_img]][lic_link]
+
+<img src="assets/000.png" width="25%">
 
 ## Kexts
 
@@ -25,11 +37,11 @@ Hackintosh OpenCore EFI</br>
 
 ## Version History
 
-**⚡ Ventura**
+**Ventura 🆕**
 
 | EFI   | macOS             | OpenCore |     -      |
 | ----- | ----------------- | :------: | :--------: |
-| 3.5.1 | 13.5 ~ 13.5.2     |  0.9.4   | 2023.08.08 |
+| 3.5.1 | 13.5 ~ 13.6       |  0.9.4   | 2023.08.08 |
 | 3.5   | 13.5              |  0.9.3   | 2023.07.25 |
 | 3.4   | 13.4 ~ 13.4.1 (c) |  0.9.2   | 2023.05.19 |
 | 3.3   | 13.3 ~ 13.3.1 (a) |  0.9.0   | 2023.03.28 |
@@ -127,7 +139,7 @@ Hackintosh OpenCore EFI</br>
     </tr>
     <tr>
       <td>Monitor</td>
-      <td>LG 27UP850-W</td>
+      <td>Xiaomi RMMNT27NU</td>
     </tr>
     <tr>
       <td>Webcam & Microphone</td>
