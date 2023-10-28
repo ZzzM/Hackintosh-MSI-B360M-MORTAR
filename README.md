@@ -1,9 +1,9 @@
 <!---  Update it   -->
-[op_img]: https://img.shields.io/badge/OpenCore-0.9.4-519872
-[op_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.4
+[op_img]: https://img.shields.io/badge/OpenCore-0.9.5-519872
+[op_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.5
 
-[os_img]: https://img.shields.io/badge/macOS-13.6-6D67E4
-[os_link]: https://support.apple.com/en-us/HT213931
+[os_img]: https://img.shields.io/badge/macOS-13.6.1-6D67E4
+[os_link]: https://support.apple.com/en-us/HT213985
 <!---              -->
 
 [bs_img]: https://img.shields.io/badge/BIOS-7B23v1A-yellow
@@ -32,7 +32,7 @@
 
 | AppleALC | IntelMausi | Lilu  | NVMeFix | VirtualSMC | WhateverGreen |
 | :------: | :--------: | :---: | :-----: | :--------: | :-----------: |
-|  1.8.4   |   1.0.7    | 1.6.7 |  1.1.1  |   1.3.2    |     1.6.6     |
+|  1.8.7   |   1.0.8    | 1.6.8 |  1.1.2  |   1.3.3    |     1.6.7     |
 
 
 ## Version History
@@ -41,6 +41,7 @@
 
 | EFI   | macOS             | OpenCore |     -      |
 | ----- | ----------------- | :------: | :--------: |
+| 3.6   | 13.6 ~ 13.6.1     |  0.9.5   | 2023.10.28 |
 | 3.5.1 | 13.5 ~ 13.6       |  0.9.4   | 2023.08.08 |
 | 3.5   | 13.5              |  0.9.3   | 2023.07.25 |
 | 3.4   | 13.4 ~ 13.4.1 (c) |  0.9.2   | 2023.05.19 |
