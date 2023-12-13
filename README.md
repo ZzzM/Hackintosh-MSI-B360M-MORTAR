@@ -1,9 +1,9 @@
 <!---  Update it   -->
-[op_img]: https://img.shields.io/badge/OpenCore-0.9.5-519872
-[op_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.5
+[op_img]: https://img.shields.io/badge/OpenCore-0.9.7-519872
+[op_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.7
 
-[os_img]: https://img.shields.io/badge/macOS-13.6.1-6D67E4
-[os_link]: https://support.apple.com/en-us/HT213985
+[os_img]: https://img.shields.io/badge/macOS-13.6.3-6D67E4
+[os_link]: https://support.apple.com/en-us/HT214038
 <!---              -->
 
 [bs_img]: https://img.shields.io/badge/BIOS-7B23v1A-yellow
@@ -28,19 +28,13 @@
 
 <img src="assets/000.png" width="25%">
 
-## Kexts
-
-| AppleALC | IntelMausi | Lilu  | NVMeFix | VirtualSMC | WhateverGreen |
-| :------: | :--------: | :---: | :-----: | :--------: | :-----------: |
-|  1.8.7   |   1.0.8    | 1.6.8 |  1.1.2  |   1.3.3    |     1.6.7     |
-
-
 ## Version History
 
 **Ventura 🆕**
 
 | EFI   | macOS             | OpenCore |     -      |
 | ----- | ----------------- | :------: | :--------: |
+| 3.6.3 | 13.6.3            |  0.9.7   | 2023.12.14 |
 | 3.6   | 13.6 ~ 13.6.1     |  0.9.5   | 2023.10.28 |
 | 3.5.1 | 13.5 ~ 13.6       |  0.9.4   | 2023.08.08 |
 | 3.5   | 13.5              |  0.9.3   | 2023.07.25 |
@@ -96,6 +90,39 @@
 
 </details>
 
+## Kexts
+
+<table>
+    <tr>
+      <td>AppleALC</td>
+      <td>1.8.9</td>
+    </tr>
+    <tr>
+      <td>IntelMausiEthernet</td>
+      <td>1.0.8</td>
+    </tr>
+    <tr>
+      <td>Lilu</td>
+      <td>1.6.8</td>
+    </tr>
+    <tr>
+      <td>NVMeFix</td>
+      <td>1.1.2</td>
+    </tr>
+    <tr>
+      <td>USBInjectAll</td>
+      <td>0.8.0</td>
+    </tr>
+    <tr>
+      <td>VirtualSMC</td>
+      <td>1.3.3</td>
+    </tr>
+    <tr>
+      <td>WhateverGreen</td>
+      <td>1.6.7</td>
+    </tr>
+
+</table>
 
 ## Working
 
