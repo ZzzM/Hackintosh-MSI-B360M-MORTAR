@@ -1,36 +1,102 @@
-<!---  Update it   -->
-[op_img]: https://img.shields.io/badge/OpenCore-0.9.7-519872
-[op_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.7
+<!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-13.6.3-6D67E4
-[os_link]: https://support.apple.com/en-us/HT214038
+[os_img]: https://img.shields.io/badge/macOS-14.3-6D67E4
+[os_link]: https://support.apple.com/en-us/HT214061
+
+[oc_img]: https://img.shields.io/badge/OpenCore-0.9.7-519872
+[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.7
+
+[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-1.3.0-blue
+[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/1.3.0
+
 <!---              -->
 
 [bs_img]: https://img.shields.io/badge/BIOS-7B23v1A-yellow
 [bs_link]: https://www.msi.com/Motherboard/B360M-MORTAR/support
 
-[tag_img]: https://img.shields.io/github/v/tag/ZzzM/Hackintosh-MSI-B360M-MORTAR
-[tag_link]: https://github.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/tags
 
-[doc_img]: https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-red
-[doc_link]: https://zzzm.github.io/2020/07/24/hackintosh/
+[dc_img]: https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-red
+[dc_link]: https://zzzm.github.io/2020/07/24/hackintosh/
 
-[lic_img]: https://img.shields.io/github/license/ZzzM/Hackintosh-MSI-B360M-MORTAR
-[lic_link]: https://raw.githubusercontent.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/master/LICENSE
+[ls_img]: https://img.shields.io/github/license/ZzzM/Hackintosh-MSI-B360M-MORTAR
+[ls_link]: https://raw.githubusercontent.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/master/LICENSE
 
 # Hackintosh OpenCore EFI
-[![op_img]][op_link]
 [![os_img]][os_link]
+[![oc_img]][oc_link]
+[![oclp_img]][oclp_link]
 [![bs_img]][bs_link]
-[![tag_img]][tag_link]
-[![doc_img]][doc_link]
-[![lic_img]][lic_link]
+[![dc_img]][dc_link]
+[![ls_img]][ls_link]
 
-<img src="assets/000.png" width="25%">
+
+<img src="Assets/about.png" width="25%">
+
+## Sonoma 🆕 
+
+
+| EFI   | macOS             | OC & OCLP         |     -      |
+| ----- | ----------------- | :---------------: | :--------: |
+| 4.2.1 | 14.2.1 ~ 14.3     |  0.9.7 & 1.3.0    | 2024.01.24 |
+
+## Kexts
+
+<table>
+    <tr>
+      <td>AppleALC</td>
+      <td>1.8.9</td>
+    </tr>
+    <tr>
+      <td>IntelMausiEthernet</td>
+      <td>1.0.8</td>
+    </tr>
+    <tr>
+      <td>Lilu</td>
+      <td>1.6.8</td>
+    </tr>
+    <tr>
+      <td>NVMeFix</td>
+      <td>1.1.2</td>
+    </tr>
+    <tr>
+      <td>USBInjectAll</td>
+      <td>0.8.0</td>
+    </tr>
+    <tr>
+      <td>VirtualSMC</td>
+      <td>1.3.3</td>
+    </tr>
+    <tr>
+      <td>WhateverGreen</td>
+      <td>1.6.7</td>
+    </tr>
+</table>
+
+**Sonoma Requirements**
+
+<table>
+    <tr>
+      <td>IOSkywalkFamily</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <td>IO80211FamilyLegacy</td>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <td>IO80211FamilyLegacy Plugin - AirPortBrcmNIC</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <td>AMFIPass</td>
+      <td>1.4.0</td>
+    </tr>
+</table>
 
 ## Version History
 
-**Ventura 🆕**
+<details>
+<summary><b> Ventura </b></summary>
 
 | EFI   | macOS             | OpenCore |     -      |
 | ----- | ----------------- | :------: | :--------: |
@@ -45,6 +111,7 @@
 | 3.0.1 | 13.0.1            |  0.8.6   | 2022.11.10 |
 | 3.0   | 13.0              |  0.8.5   | 2022.10.28 |
 
+</details>
 
 <details>
 <summary><b> Monterey </b></summary>
@@ -90,39 +157,6 @@
 
 </details>
 
-## Kexts
-
-<table>
-    <tr>
-      <td>AppleALC</td>
-      <td>1.8.9</td>
-    </tr>
-    <tr>
-      <td>IntelMausiEthernet</td>
-      <td>1.0.8</td>
-    </tr>
-    <tr>
-      <td>Lilu</td>
-      <td>1.6.8</td>
-    </tr>
-    <tr>
-      <td>NVMeFix</td>
-      <td>1.1.2</td>
-    </tr>
-    <tr>
-      <td>USBInjectAll</td>
-      <td>0.8.0</td>
-    </tr>
-    <tr>
-      <td>VirtualSMC</td>
-      <td>1.3.3</td>
-    </tr>
-    <tr>
-      <td>WhateverGreen</td>
-      <td>1.6.7</td>
-    </tr>
-
-</table>
 
 ## Working
 
@@ -187,32 +221,17 @@
     </tr>
 </table>
 
-## Benchmark
 
-- Devices
+## Recommended
 
-|                                    macOS 10.15.6                                    |         CPU          |                       Graphics                       |
-| :---------------------------------------------------------------------------------: | :------------------: | :--------------------------------------------------: |
-|               <img src="assets/001.png" width="280px"><br>Hackintosh                | Intel Core i5-9400F  |                  AMD Radeon RX 590                   |
-| <img src="assets/002.png" width="280px"><br>MacBook Pro (Retina, 15-inch, Mid 2015) | Intel Core i7-4770HQ |                    Intel Iris Pro                    |
-|       <img src="assets/003.png" width="280px"><br>MacBook Pro (16-inch, 2019)       | Intel Core i7-9750H  | ① AMD Radeon Pro 5300M <br> ② Intel UHD Graphocs 630 |
+- [BIOS Settings](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI/blob/master/README.en.md#bios-settings)
+- [OpenCore Auxiliary Tools ](https://github.com/ic005k/QtOpenCoreConfig)
 
-- Results
-
-|             Geekbench 5.2.0             | Single-Core | Multi-Core |              OpenCL |               Metal |
-| :-------------------------------------: | ----------: | ---------: | ------------------: | ------------------: |
-|               Hackintosh                |        1025 |       5118 |               38203 |               39163 |
-| MacBook Pro (Retina, 15-inch, Mid 2015) |         821 |       3303 |                5152 |                 520 |
-|       MacBook Pro (16-inch, 2019)       |        1073 |       5425 | ① 25241 <br> ② 5186 | ① 23814 <br> ② 4718 |
-
-
-## Note
-
-- [**OC Auxiliary Tools**](https://github.com/ic005k/QtOpenCoreConfig) can help you update **config.plist** 
-
-- Refer [**here**](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI#%E4%BD%BF%E7%94%A8-efi) to help you adjust **BIOS Settings**
-
-
-## References
-- [*MSI-B360M-MORTAR-IMACPRO-EFI*](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI)
-- [*MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI*](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI)
+## Credits
+- [andot](https://github.com/andot/MSI-B360M-MORTAR-IMACPRO-EFI)
+- [GeQ1an](https://github.com/GeQ1an/MSI-B360M-MORTAR-HACKINTOSH-OPENCORE-EFI)
+- [黑果小兵](https://blog.daliansky.net/)
+- [Hackintool](https://github.com/benbaker76/Hackintool)
+- [OpenCore](https://github.com/acidanthera/OpenCorePkg)
+- [OpenCore Auxiliary Tools ](https://github.com/ic005k/QtOpenCoreConfig)
+- [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
