@@ -1,10 +1,10 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-14.3-6D67E4
-[os_link]: https://support.apple.com/en-us/HT214061
+[os_img]: https://img.shields.io/badge/macOS-14.3.1-6D67E4
+[os_link]: https://support.apple.com/en-us/HT201222
 
-[oc_img]: https://img.shields.io/badge/OpenCore-0.9.7-519872
-[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.7
+[oc_img]: https://img.shields.io/badge/OpenCore-0.9.8-519872
+[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.8
 
 [oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-1.3.0-blue
 [oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/1.3.0
@@ -37,6 +37,7 @@
 
 | EFI   | macOS             | OC & OCLP         |     -      |
 | ----- | ----------------- | :---------------: | :--------: |
+| 4.3   | 14.3 ~ 14.3.1     |  0.9.8 & 1.3.0    | 2024.02.28 |
 | 4.2.1 | 14.2.1 ~ 14.3     |  0.9.7 & 1.3.0    | 2024.01.24 |
 
 ## Kexts
@@ -44,7 +45,7 @@
 <table>
     <tr>
       <td>AppleALC</td>
-      <td>1.8.9</td>
+      <td>1.9.0</td>
     </tr>
     <tr>
       <td>IntelMausiEthernet</td>
@@ -81,11 +82,11 @@
     </tr>
     <tr>
       <td>IO80211FamilyLegacy</td>
-      <td>12.0</td>
+      <td>1200.12.2b1</td>
     </tr>
     <tr>
       <td>IO80211FamilyLegacy Plugin - AirPortBrcmNIC</td>
-      <td>14.0</td>
+      <td>1400.1.1</td>
     </tr>
     <tr>
       <td>AMFIPass</td>
