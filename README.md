@@ -1,13 +1,13 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-14.5-6D67E4
-[os_link]: https://support.apple.com/en-hk/HT214106
+[os_img]: https://img.shields.io/badge/macOS-14.6-6D67E4
+[os_link]: https://support.apple.com/en-hk/HT214119
 
 [oc_img]: https://img.shields.io/badge/OpenCore-1.0.0-519872
 [oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.0
 
-[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-1.4.3-blue
-[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/1.4.3
+[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-1.5.0-blue
+[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/1.5.0
 
 <!---              -->
 
@@ -37,6 +37,7 @@
 
 | EFI   | macOS             | OC & OCLP         |     -      |
 | ----- | ----------------- | :---------------: | :--------: |
+| 4.6   | 14.6              |  1.0.0 & 1.5.0    | 2024.07.31 |
 | 4.5   | 14.5              |  1.0.0 & 1.4.3    | 2024.05.17 |
 | 4.4   | 14.4 ~ 14.4.1     |  0.9.9 & 1.4.3    | 2024.04.09 |
 | 4.3   | 14.3 ~ 14.3.1     |  0.9.8 & 1.3.0    | 2024.02.28 |
