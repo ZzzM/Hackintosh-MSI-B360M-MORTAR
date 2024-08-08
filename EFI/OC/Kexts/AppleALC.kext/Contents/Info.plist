@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G320</string>
+	<string>23F79</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -29,19 +29,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>14C18</string>
+	<string></string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>13.1</string>
+	<string>13.3</string>
 	<key>DTSDKBuild</key>
-	<string>22C55</string>
+	<string>22E245</string>
 	<key>DTSDKName</key>
-	<string>macosx13.1</string>
+	<string>macosx13.3</string>
 	<key>DTXcode</key>
-	<string>1420</string>
+	<string>1431</string>
 	<key>DTXcodeBuild</key>
-	<string>14C18</string>
+	<string>14E300c</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ALCUserClientProvider</key>
@@ -8997,6 +8997,32 @@
 					AwAAAA==
 					</data>
 					<key>Codec</key>
+					<string>mbarbierato - Realtek ALC298 for Microsoft Surface GO 2</string>
+					<key>CodecID</key>
+					<integer>283902616</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQABJx6gAScfkAFHHCABRx0AAUce
+					FwFHH5ABRwwCAYccMAGHHRABhx6BAYcfAgIX
+					HEACFx0QAhceIQIXHwICFwwC
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>69</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgIXDAI=
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
 					<string>Custom - Realtek ALC298 for Dell XPS 9560 by KNNSpeed</string>
 					<key>CodecID</key>
 					<integer>283902616</integer>
@@ -16297,6 +16323,60 @@
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Conexant CX8400 for Zbook G5 - theroadw</string>
+					<key>CodecID</key>
+					<integer>351346896</integer>
+					<key>ConfigData</key>
+					<data>
+					AWccEAFnHRABZx4hAWcfBAFnDAIBlxwgAZcd
+					EAGXHoEBlx8EAaccMAGnHQEBpx6mAacfkAHX
+					HEAB1x0BAdceFwHXH5kB1wwCAZcHJA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>14</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AWcMAgHXDAIBlwck
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>ALC269</string>
+					<key>CodecID</key>
+					<integer>283902569</integer>
+					<key>Comment</key>
+					<string>Talha - ALC269VB for Acer Aspire Z3-715</string>
+					<key>ConfigData</key>
+					<data>
+					AUccEAFHHQABRx4QAUcfQAFHDAIBVxwgAVcd
+					EAFXHiEBVx8BAVcMAgGnHDABpx0AAaceFwGn
+					H5ABJxxAAScdAAEnHqABJx+Q
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>89</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAgFXDAI=
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>

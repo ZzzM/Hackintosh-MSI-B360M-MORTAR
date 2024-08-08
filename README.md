@@ -1,10 +1,10 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-14.6-6D67E4
+[os_img]: https://img.shields.io/badge/macOS-14.6.1-6D67E4
 [os_link]: https://support.apple.com/en-hk/HT214119
 
-[oc_img]: https://img.shields.io/badge/OpenCore-1.0.0-519872
-[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.0
+[oc_img]: https://img.shields.io/badge/OpenCore-1.0.1-519872
+[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1
 
 [oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-1.5.0-blue
 [oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/1.5.0
@@ -37,6 +37,7 @@
 
 | EFI   | macOS             | OC & OCLP         |     -      |
 | ----- | ----------------- | :---------------: | :--------: |
+| 4.6.1 | 14.6.1            |  1.0.1 & 1.5.0    | 2024.08.08 |
 | 4.6   | 14.6              |  1.0.0 & 1.5.0    | 2024.07.31 |
 | 4.5   | 14.5              |  1.0.0 & 1.4.3    | 2024.05.17 |
 | 4.4   | 14.4 ~ 14.4.1     |  0.9.9 & 1.4.3    | 2024.04.09 |
@@ -52,7 +53,7 @@
     </tr>
     <tr>
       <td>IntelMausiEthernet</td>
-      <td>1.0.8</td>
+      <td>1.0.7</td>
     </tr>
     <tr>
       <td>Lilu</td>
@@ -60,7 +61,7 @@
     </tr>
     <tr>
       <td>NVMeFix</td>
-      <td>1.1.2</td>
+      <td>1.1.1</td>
     </tr>
     <tr>
       <td>USBInjectAll</td>
@@ -80,19 +81,15 @@
 
 <table>
     <tr>
-      <td>IOSkywalkFamily</td>
+      <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IO80211FamilyLegacy-v1.0.0.zip'>IO80211FamilyLegacy</a></td>
       <td>1.0</td>
     </tr>
     <tr>
-      <td>IO80211FamilyLegacy</td>
-      <td>1200.12.2b1</td>
+      <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.1.0.zip'>IOSkywalkFamily</a></td>
+      <td>1.1</td>
     </tr>
     <tr>
-      <td>IO80211FamilyLegacy Plugin - AirPortBrcmNIC</td>
-      <td>1400.1.1</td>
-    </tr>
-    <tr>
-      <td>AMFIPass</td>
+      <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.0-RELEASE.zip'>AMFIPass</a></td>
       <td>1.4.0</td>
     </tr>
 </table>
