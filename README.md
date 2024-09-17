@@ -1,17 +1,16 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-14.6.1-6D67E4
-[os_link]: https://support.apple.com/en-hk/HT214119
+[os_img]: https://img.shields.io/badge/macOS-15.0-6D67E4
+[os_link]: https://support.apple.com/en-hk/121238
 
 [oc_img]: https://img.shields.io/badge/OpenCore-1.0.1-519872
 [oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1
 
-[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-1.5.0-blue
-[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/1.5.0
+[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-2.0.1-blue
+[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.0.1
 
-<!---              -->
-
-[bs_img]: https://img.shields.io/badge/BIOS-7B23v1A-yellow
+<!---     Upgrading BIOS from 7B23v1A to version 7B23v1D.     -->
+[bs_img]: https://img.shields.io/badge/BIOS-7B23v1D-yellow
 [bs_link]: https://www.msi.com/Motherboard/B360M-MORTAR/support
 
 
@@ -30,19 +29,15 @@
 [![ls_img]][ls_link]
 
 
-<img src="Assets/about.png" width="25%">
+<img src="Assets/sys.png" width="25%">
 
-## Sonoma 🆕 
+## 🌲 Sequoia 
 
 
 | EFI   | macOS             | OC & OCLP         |     -      |
 | ----- | ----------------- | :---------------: | :--------: |
-| 4.6.1 | 14.6.1            |  1.0.1 & 1.5.0    | 2024.08.08 |
-| 4.6   | 14.6              |  1.0.0 & 1.5.0    | 2024.07.31 |
-| 4.5   | 14.5              |  1.0.0 & 1.4.3    | 2024.05.17 |
-| 4.4   | 14.4 ~ 14.4.1     |  0.9.9 & 1.4.3    | 2024.04.09 |
-| 4.3   | 14.3 ~ 14.3.1     |  0.9.8 & 1.3.0    | 2024.02.28 |
-| 4.2.1 | 14.2.1 ~ 14.3     |  0.9.7 & 1.3.0    | 2024.01.24 |
+| 5.0   | 15.0              |  1.0.1 & 2.0.1    | 2024.09.17 |
+
 
 ## Kexts
 
@@ -77,7 +72,7 @@
     </tr>
 </table>
 
-**Sonoma Requirements**
+**Requirements**
 
 <table>
     <tr>
@@ -85,16 +80,30 @@
       <td>1.0</td>
     </tr>
     <tr>
-      <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.1.0.zip'>IOSkywalkFamily</a></td>
-      <td>1.1</td>
+      <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Wifi/IOSkywalkFamily-v1.2.0.zip'>IOSkywalkFamily</a></td>
+      <td>1.2</td>
     </tr>
     <tr>
-      <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.0-RELEASE.zip'>AMFIPass</a></td>
-      <td>1.4.0</td>
+      <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip'>AMFIPass</a></td>
+      <td>1.4.1</td>
     </tr>
 </table>
 
 ## Version History
+
+<details>
+<summary><b> Sonoma </b></summary>
+
+| EFI   | macOS             | OC & OCLP         |     -      |
+| ----- | ----------------- | :---------------: | :--------: |
+| 4.6.1 | 14.6.1            |  1.0.1 & 1.5.0    | 2024.08.08 |
+| 4.6   | 14.6              |  1.0.0 & 1.5.0    | 2024.07.31 |
+| 4.5   | 14.5              |  1.0.0 & 1.4.3    | 2024.05.17 |
+| 4.4   | 14.4 ~ 14.4.1     |  0.9.9 & 1.4.3    | 2024.04.09 |
+| 4.3   | 14.3 ~ 14.3.1     |  0.9.8 & 1.3.0    | 2024.02.28 |
+| 4.2.1 | 14.2.1 ~ 14.3     |  0.9.7 & 1.3.0    | 2024.01.24 |
+
+</details>
 
 <details>
 <summary><b> Ventura </b></summary>
