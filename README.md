@@ -1,15 +1,14 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-15.0-6D67E4
-[os_link]: https://support.apple.com/en-hk/121238
+[os_img]: https://img.shields.io/badge/macOS-15.1-6D67E4
+[os_link]: https://support.apple.com/en-hk/121564
 
-[oc_img]: https://img.shields.io/badge/OpenCore-1.0.1-519872
-[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1
+[oc_img]: https://img.shields.io/badge/OpenCore-1.0.2-519872
+[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.2
 
-[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-2.0.1-blue
-[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.0.1
+[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-2.0.2-blue
+[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.0.2
 
-<!---     Upgrading BIOS from 7B23v1A to version 7B23v1D.     -->
 [bs_img]: https://img.shields.io/badge/BIOS-7B23v1D-yellow
 [bs_link]: https://www.msi.com/Motherboard/B360M-MORTAR/support
 
@@ -20,6 +19,10 @@
 [ls_img]: https://img.shields.io/github/license/ZzzM/Hackintosh-MSI-B360M-MORTAR
 [ls_link]: https://raw.githubusercontent.com/ZzzM/Hackintosh-MSI-B360M-MORTAR/master/LICENSE
 
+<!---  Features  -->
+<!--- 5.1: 1️⃣ Update config.plist, 2️⃣ Add RestrictEvents -->
+<!--- 5.0: Upgrade BIOS from 7B23v1A to version 7B23v1D -->
+<!--- 4.6.1: Use stable version of Kexts -->
 # Hackintosh OpenCore EFI
 [![os_img]][os_link]
 [![oc_img]][oc_link]
@@ -29,13 +32,14 @@
 [![ls_img]][ls_link]
 
 
-<img src="Assets/sys.png" width="25%">
+<img src="Assets/sys.png" width="30%">
 
 ## 🌲 Sequoia 
 
 
 | EFI   | macOS             | OC & OCLP         |     -      |
 | ----- | ----------------- | :---------------: | :--------: |
+| 5.1   | 15.1              |  1.0.2 & 2.0.2    | 2024.10.30 |
 | 5.0   | 15.0              |  1.0.1 & 2.0.1    | 2024.09.17 |
 
 
@@ -52,7 +56,7 @@
     </tr>
     <tr>
       <td>Lilu</td>
-      <td>1.6.8</td>
+      <td>1.6.9</td>
     </tr>
     <tr>
       <td>NVMeFix</td>
@@ -64,15 +68,15 @@
     </tr>
     <tr>
       <td>VirtualSMC</td>
-      <td>1.3.3</td>
+      <td>1.3.4</td>
     </tr>
     <tr>
       <td>WhateverGreen</td>
-      <td>1.6.7</td>
+      <td>1.6.8</td>
     </tr>
 </table>
 
-**Requirements**
+**Patches**
 
 <table>
     <tr>
@@ -86,6 +90,10 @@
     <tr>
       <td><a href='https://github.com/dortania/OpenCore-Legacy-Patcher/blob/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip'>AMFIPass</a></td>
       <td>1.4.1</td>
+    </tr>
+    <tr>
+      <td>RestrictEvents</td>
+      <td>1.1.5</td>
     </tr>
 </table>
 

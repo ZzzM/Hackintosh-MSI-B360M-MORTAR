@@ -165,7 +165,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.8 | Patch engine</string>
+                    <string>V1.6.9 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -183,7 +183,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3 | SMC emulator</string>
+                    <string>V1.3.4 | SMC emulator</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -201,7 +201,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3</string>
+                    <string>V1.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -219,7 +219,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.3</string>
+                    <string>V1.3.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -237,7 +237,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.7</string>
+                    <string>V1.6.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -255,7 +255,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.1 | Audio patches</string>
+                    <string>V1.9.2 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -390,6 +390,24 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string>23.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>RestrictEvents.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.5</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RestrictEvents</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -789,9 +807,9 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>shikigva=80 ipc_control_port_options=0</string>
+                    <string>revpatch=sbvmm</string>
                     <key>csr-active-config</key>
-                    <data>fwoAAA==</data>
+                    <data>AwgAAA==</data>
                     <key>prev-lang:kbd</key>
                     <data>emgtSGFuczoyNTI=</data>
                 </dict>
@@ -1170,6 +1188,8 @@
                     <string>Reserved</string>
                 </dict>
             </array>
+            <key>Unload</key>
+            <array/>
         </dict>
     </dict>
 </plist>
