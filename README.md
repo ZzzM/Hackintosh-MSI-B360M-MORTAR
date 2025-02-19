@@ -1,6 +1,6 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-15.3-6D67E4
+[os_img]: https://img.shields.io/badge/macOS-15.3.1-6D67E4
 [os_link]: https://support.apple.com/en-hk/122068
 
 [oc_img]: https://img.shields.io/badge/OpenCore-1.0.3-519872
@@ -39,7 +39,7 @@
 
 | EFI   | macOS             | OC & OCLP         |     -      |
 | ----- | ----------------- | :---------------: | :--------: |
-| 5.2   | 15.2 ~ 15.3       |  1.0.3 & 2.2.0    | 2024.12.12 |
+| 5.2   | 15.2 ~ 15.3.1     |  1.0.3 & 2.2.0    | 2024.12.12 |
 | 5.1   | 15.1              |  1.0.2 & 2.0.2    | 2024.10.30 |
 | 5.0   | 15.0              |  1.0.1 & 2.0.1    | 2024.09.17 |
 
