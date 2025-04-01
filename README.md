@@ -1,13 +1,13 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-15.3.2-6D67E4
-[os_link]: https://support.apple.com/en-hk/122283
+[os_img]: https://img.shields.io/badge/macOS-15.4-6D67E4
+[os_link]: https://support.apple.com/en-hk/122373
 
-[oc_img]: https://img.shields.io/badge/OpenCore-1.0.3-519872
-[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.3
+[oc_img]: https://img.shields.io/badge/OpenCore-1.0.4-519872
+[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.4
 
-[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-2.2.0-blue
-[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.2.0
+[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-2.3.0-blue
+[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.3.0
 
 [bs_img]: https://img.shields.io/badge/BIOS-7B23v1D-yellow
 [bs_link]: https://www.msi.com/Motherboard/B360M-MORTAR/support
@@ -39,6 +39,7 @@
 
 | EFI   | macOS             | OC & OCLP         |     -      |
 | ----- | ----------------- | :---------------: | :--------: |
+| 5.3   | 15.4              |  1.0.4 & 2.3.0    | 2025.04.01 |
 | 5.2   | 15.2 ~ 15.3.2     |  1.0.3 & 2.2.0    | 2024.12.12 |
 | 5.1   | 15.1              |  1.0.2 & 2.0.2    | 2024.10.30 |
 | 5.0   | 15.0              |  1.0.1 & 2.0.1    | 2024.09.17 |
@@ -49,7 +50,7 @@
 <table>
     <tr>
       <td>AppleALC</td>
-      <td>1.9.3</td>
+      <td>1.9.4</td>
     </tr>
     <tr>
       <td>IntelMausiEthernet</td>
@@ -69,7 +70,7 @@
     </tr>
     <tr>
       <td>VirtualSMC</td>
-      <td>1.3.4</td>
+      <td>1.3.5</td>
     </tr>
     <tr>
       <td>WhateverGreen</td>
