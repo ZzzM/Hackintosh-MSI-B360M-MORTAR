@@ -8,15 +8,15 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>Re-enable old RTC clock compatible with macOS</string>
+                    <string>Incompatible AWAC Fix</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-AWAC.aml</string>
+                    <string>SSDT-RTCAWAC.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Enable XCPM to manage CPU's power management</string>
+                    <string>Sets plugin-type to 1 on first Processor object</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -32,7 +32,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Fix NVRAM support for 300-series motherboard</string>
+                    <string>PMCR for native 300-series NVRAM</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -42,38 +42,7 @@
             <key>Delete</key>
             <array/>
             <key>Patch</key>
-            <array>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>GPRW6D: 04 to 03</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>Cm0KBA==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>CmkKAw==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-            </array>
+            <array/>
             <key>Quirks</key>
             <dict>
                 <key>FadtEnableReset</key>
@@ -167,7 +136,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.0 | Patch engine</string>
+                    <string>V1.7.1 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -185,7 +154,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.5 | SMC emulator</string>
+                    <string>V1.3.7 | SMC emulator</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -203,7 +172,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.5</string>
+                    <string>V1.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -221,7 +190,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.5</string>
+                    <string>V1.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -239,7 +208,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9</string>
+                    <string>V1.7.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -257,7 +226,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.4 | Audio patches</string>
+                    <string>V1.9.5 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -365,7 +334,7 @@
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.2</string>
+                    <string>V1.1.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -401,7 +370,7 @@
                     <key>BundlePath</key>
                     <string>RestrictEvents.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.5</string>
+                    <string>V1.1.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -888,7 +857,7 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMacPro1,1</string>
+                <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
                 <string>C02WWAY9HX87</string>
                 <key>SystemUUID</key>
