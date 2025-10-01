@@ -1,6 +1,6 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-15.7-6D67E4
+[os_img]: https://img.shields.io/badge/macOS-15.7.1-6D67E4
 [os_link]: https://developer.apple.com/documentation/macos-release-notes
 
 [oc_img]: https://img.shields.io/badge/OpenCore-1.0.5-519872
@@ -40,7 +40,7 @@
 
 | Version  |  Date      | Compatibility     | OC & OCLP      | Changes         |
 | :------: | :--------: | ----------------- | :------------: | --------------- |
-| 5.4      | 2025-07-30 | 15.5 ~ 15.7       | 1.0.5 & 2.4.0  | Change SMBIOS from **iMacPro1,1** to **MacPro7,1** |
+| 5.4      | 2025-07-30 | 15.5 ~ 15.7.1     | 1.0.5 & 2.4.0  | Change SMBIOS from **iMacPro1,1** to **MacPro7,1** |
 | 5.3      | 2025-04-01 | 15.4 ~ 15.4.1     | 1.0.4 & 2.3.0  |                 |
 | 5.2      | 2024-12-12 | 15.2 ~ 15.3.2     | 1.0.3 & 2.2.0  |                 |
 | 5.1      | 2024-10-30 | 15.1              | 1.0.2 & 2.0.2  |                 |
