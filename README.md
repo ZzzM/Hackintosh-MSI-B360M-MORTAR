@@ -1,13 +1,13 @@
 <!---  Update the following   -->
 
-[os_img]: https://img.shields.io/badge/macOS-15.7.8-6D67E4
-[os_link]: https://developer.apple.com/documentation/macos-release-notes
+[os_img]: https://img.shields.io/badge/macOS-15.8-6D67E4
+[os_link]: https://support.apple.com/en-us/120283
 
-[oc_img]: https://img.shields.io/badge/OpenCore-1.0.5-519872
-[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.5
+[oc_img]: https://img.shields.io/badge/OpenCore-1.0.7-519872
+[oc_link]: https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.7
 
-[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-2.4.0-blue
-[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.4.0
+[oclp_img]: https://img.shields.io/badge/OpenCore_Legacy_Patcher-2.5.0-blue
+[oclp_link]: https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.5.0
 
 [bs_img]: https://img.shields.io/badge/BIOS-7B23v1D-yellow
 [bs_link]: https://www.msi.com/Motherboard/B360M-MORTAR/support
@@ -40,6 +40,7 @@
 
 | Version  |  Date      | Compatibility     | OC & OCLP      | Changes         |
 | :------: | :--------: | ----------------- | :------------: | --------------- |
+| 5.5      | 2026-09-15 | 15.8              | 1.0.7 & 2.5.0  |                 |
 | 5.4      | 2025-07-30 | 15.5 ~ 15.7.8     | 1.0.5 & 2.4.0  | Change SMBIOS from **iMacPro1,1** to **MacPro7,1** |
 | 5.3      | 2025-04-01 | 15.4 ~ 15.4.1     | 1.0.4 & 2.3.0  |                 |
 | 5.2      | 2024-12-12 | 15.2 ~ 15.3.2     | 1.0.3 & 2.2.0  |                 |
@@ -52,7 +53,7 @@
 <table>
     <tr>
       <td>AppleALC</td>
-      <td>1.9.5</td>
+      <td>1.9.7</td>
     </tr>
     <tr>
       <td>IntelMausiEthernet</td>
@@ -60,7 +61,7 @@
     </tr>
     <tr>
       <td>Lilu</td>
-      <td>1.7.1</td>
+      <td>1.7.2</td>
     </tr>
     <tr>
       <td>NVMeFix</td>
